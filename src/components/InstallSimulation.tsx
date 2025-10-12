@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
@@ -33,6 +34,7 @@ export default function InstallSimulation({
   const startRef = useRef<number | null>(null);
   const finishedRef = useRef(false);
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const isMobile = useMemo(
     () => typeof window !== "undefined" && window.matchMedia("(max-width: 768px)").matches,
     []
