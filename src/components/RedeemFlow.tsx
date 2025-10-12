@@ -96,7 +96,7 @@ export default function RedeemFlow({ campaign = "godis" }: Props) {
                 disabled={!canSubmit}
                 className="w-full h-12 rounded-xl bg-black text-white font-semibold disabled:opacity-40 active:scale-[0.99] transition"
               >
-                {submitting ? "Starter …" : "Redeem"}
+                {submitting ? "Starter …" : "løs inn"}
               </button>
 
               <p className="text-[11px] text-neutral-500 text-center">
