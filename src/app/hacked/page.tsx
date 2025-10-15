@@ -31,18 +31,12 @@ export default function HackedPage() {
       <section className="relative z-10 flex min-h-screen items-center justify-center px-6">
         <div className="text-center max-w-xl bg-black/40 p-6 rounded-xl">
           <h1 className="text-4xl md:text-6xl font-extrabold text-green-400 tracking-wide drop-shadow-lg">
-            Hei {displayName}, du har blitt hacket 💀
+            Så lett er det å bli hacket 💀
           </h1>
 
-          <p className="mt-4 text-green-200/90 text-base md:text-lg">
-            Vi har nå tilgang til din epost:{" "}
-            <span className="font-mono text-sm text-green-100">
-              {displayEmail}
-            </span>
-          </p>
           <div className="mt-6 border border-green-500/60 rounded-xl p-4 bg-black/80">
             <p className="text-green-200/80 text-sm leading-relaxed">
-              Dette kunne vært en falsk QR-kode. Vær forsiktig med hvilke lenker
+              Dette kunne vært en falsk QR-kode. Alltid! Vær forsiktig med hvilke lenker
               du klikker på, og hvilke apper du laster ned.
               <br />
               Om du vil lese mer om sikkerhetstips kan du finne dem på{" "}
