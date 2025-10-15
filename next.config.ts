@@ -5,7 +5,6 @@ const isProd = process.env.NODE_ENV === 'production'
 const repo = 'Thon-sikkerhet-test' // <-- bytt dette
 
 export default {
-  output: 'export',              // aktiver statisk eksport
   basePath: isProd ? `/${repo}` : '',
   assetPrefix: isProd ? `/${repo}/` : '',
   images: { unoptimized: true }, // nødvendig for export + GitHub Pages
