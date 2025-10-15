@@ -1,15 +1,12 @@
-// next.config.mjs
+
 /** @type {import('next').NextConfig} */
 const isProd = process.env.NODE_ENV === 'production'
-const isVercel = !!process.env.VERCEL   // Vercel setter denne
-const repo = 'Thon-sikkerhet-test'      // kun for GitHub Pages
+const isVercel = !!process.env.VERCEL   
+const repo = 'Thon-sikkerhet-test'     
 
-const forGhPages = isProd && !isVercel   // prod + ikke Vercel => GitHub Pages
+const forGhPages = isProd && !isVercel   
 
 export default {
-  // Kun for GitHub Pages:
-  basePath: forGhPages ? `/${repo}` : '',
-  assetPrefix: forGhPages ? `/${repo}/` : '',
 
   // Bilde-optimering: kun unoptimized på GH Pages
   images: { unoptimized: forGhPages },
