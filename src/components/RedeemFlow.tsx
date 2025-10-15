@@ -12,7 +12,7 @@ export default function RedeemFlow({ campaign = "godis" }: Props) {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [showSim, setShowSim] = useState(false);
-  const [redeemed, setRedeemed] = useState(false);
+  const [redeemed, setRedeemed] = useState(true);
   const [submitting, setSubmitting] = useState(false);
 
   const emailValid = useMemo(
