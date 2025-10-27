@@ -31,7 +31,7 @@ export default function HackedPage() {
       <section className="relative z-10 flex min-h-screen items-center justify-center px-6">
         <div className="text-center max-w-xl bg-black/40 p-6 rounded-xl">
           <h1 className="text-4xl md:text-6xl font-extrabold text-green-400 tracking-wide drop-shadow-lg">
-            Så lett er det å bli hacket 💀
+            Så lett er det å bli hacket
           </h1>
 
           <div className="mt-6 border border-green-500/60 rounded-xl p-4 bg-black/80">
