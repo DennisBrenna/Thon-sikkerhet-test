@@ -36,10 +36,10 @@ export default function HackedPage() {
 
           <div className="mt-6 border border-green-500/60 rounded-xl p-4 bg-black/80">
             <p className="text-green-200/80 text-sm leading-relaxed">
-              Dette kunne vært en falsk QR-kode. Alltid! Vær forsiktig med hvilke lenker
+              Dette kunne vært en falsk QR-kode. Vær alltid forsiktig med hvilke lenker
               du klikker på, og hvilke apper du laster ned.
               <br />
-              Om du vil lese mer om sikkerhetstips kan du finne dem på{" "}
+              Ønsker du å lese mer om QR-kodesikkerhet eller andre sikkerhetstips? Du finner dem på{" "}
               <span className="font-semibold text-green-300">Viva Engage </span>
                under: <span className="italic">sikkerhet og personvern</span>.
               <br />
